@@ -3,7 +3,6 @@
 <p>
   <samp>
     <br>Staks
-    <br>
     <br>🔹 HTML.
     <br>🔹 CSS.
     <br>🔹 JAVA
@@ -12,12 +11,9 @@
   <br>
     <samp>
     <br>Herramientas
-    <br>
     <br>🔹 Visual Studio Cone.
     <br>🔹 Figma.
     </samp>
- 
-    <br>
   </p>
   
 </p>
