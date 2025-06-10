@@ -1,0 +1,46 @@
+.panel1 {
+    width: 2000px;
+    height: 900px;
+    background-color: #FBF8CC;
+    padding: 0 10rem;
+}
+
+.txt5 {
+    font-size:100px;
+    font-weight: 800;
+    margin-top: 10rem;
+    color: #F7F197;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.txt6 {
+    font-size: 35px;
+    color: #03045E;
+    margin-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lista {
+    font-size: 30px;
+    margin-top: 5rem;
+    margin-left:80rem;
+    color: #03045E;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Staks,
+.Herramientas {
+    font-size: 38px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lista2 {
+    font-size: 30px;
+    margin-top: 5rem;
+    margin-left:80rem;
+    color: #03045E;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
