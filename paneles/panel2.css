@@ -1,9 +1,8 @@
 .panel2 {
     width: 2000px;
-    height: 2000px;
+    height: 1945px;
     background-color: #FBF8CC;
     padding: 0 10rem;
-    border: 1px solid black;
 }
 
 .txt7 {
@@ -35,6 +34,19 @@
 .cuadro5 {
     width: 560px;
     height: 400px;
+    position: relative;
+}
+
+.cuadro2 {
+    top: 50rem;
+}
+
+.cuadro4,
+.cuadro5{
+top: 40rem;
+}
+.cuadro5{
+    left: 60rem;
 }
 
 
