@@ -5,3 +5,44 @@
     display: flex;
     justify-content: center;
 }
+
+body {
+    background-color: #ffffff; 
+}
+
+/*medidas para compu, cel y tableta*/
+
+/* Full HD (pantallas de 1920px o más) */
+@media (min-width: 1920px) {
+    body {
+        background-color: #ffe4e1;
+    }
+}
+
+/* HD (pantallas entre 1366px y 1919px) */
+@media (min-width: 1366px) and (max-width: 1919px) {
+    body {
+        background-color: #e0ffff; 
+    }
+}
+
+/* Computadora portátil (entre 1024px y 1365px) */
+@media (min-width: 1024px) and (max-width: 1365px) {
+    body {
+        background-color: #f0b48c; 
+    }
+}
+
+/* Tableta (entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: #d8bfd8; 
+    }
+}
+
+/* Teléfono (menor de 768px) */
+@media (max-width: 767px) {
+    body {
+        background-color: #add8e6; 
+    }
+}
