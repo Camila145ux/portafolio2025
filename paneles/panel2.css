@@ -1,12 +1,15 @@
 .panel2 {
-    width: 2000px;
-    height: 1945px;
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
     background-color: #FBF8CC;
-    padding: 0 10rem;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .txt7 {
-    font-size:100px;
+    font-size: 5rem;
     font-weight: 800;
     color: #F7F197;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,38 +18,52 @@
 
 .cuadros {
     display: grid;
-    grid-template-columns: 600px 600px 600px;
-    grid-template-rows: 600px 600px 600px;
-    width: 200px;
-    height: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    margin-top: 3rem;
 }
 
 .cuadros img {
-    width: 560px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     border-radius: 3rem;
 }
 
-.cuadro1,
-.cuadro2,
-.cuadro3,
-.cuadro4,
-.cuadro5 {
-    width: 560px;
-    height: 400px;
-    position: relative;
+.cuadro1, .cuadro2, .cuadro3, .cuadro4, .cuadro5 {
+    width: 100%;
+    height: auto;
+    position: static !important;
+    margin-bottom: 3rem;
 }
 
-.cuadro2 {
-    top: 50rem;
+h3 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fcd08d;
+    margin: 1rem 0;
 }
 
-.cuadro4,
-.cuadro5{
-top: 40rem;
-}
-.cuadro5{
-    left: 60rem;
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
+/* Media Queries */
+@media (max-width: 1200px) {
+    .panel2 {
+        padding: 2rem 5rem;
+    }
+}
 
+@media (max-width: 768px) {
+    .panel2 {
+        padding: 2rem;
+    }
+    .cuadros {
+        grid-template-columns: 1fr;
+    }
+    .txt7 {
+        font-size: 3rem;
+    }
+}

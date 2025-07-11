@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    align-items: center;
 }
 
 html {
-    font-size:10px ;
+    font-size: 10px;
     font-family: monospace;
 }
 
@@ -17,3 +16,108 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+
+/* Media Queries para diseño responsive */
+
+/* Estilos para tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    .Description {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .foto img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+    
+    .panel1 {
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .lista, .lista2 {
+        margin: 20px 0;
+        width: 100%;
+    }
+    
+    .cuadros {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilos para móviles (hasta 767px) */
+@media (max-width: 767px) {
+    .header1 {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .txt2 {
+        margin-top: 15px;
+    }
+    
+    .txt2 a {
+        margin: 0 10px;
+    }
+    
+    .titulos {
+        padding: 20px;
+    }
+    
+    .txt3, .txt4 {
+        font-size: 1.5rem;
+    }
+    
+    .panel1, .panel2 {
+        padding: 20px;
+    }
+    
+    .cuadros {
+        grid-template-columns: 1fr;
+    }
+    
+    .cuadro1, .cuadro2, .cuadro3, .cuadro4, .cuadro5 {
+        margin-bottom: 20px;
+    }
+    
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .book {
+        margin-bottom: 15px;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+    .txt2 {
+        flex-direction: column;
+    }
+    
+    .txt2 a {
+        margin: 5px 0;
+    }
+    
+    .txt3 {
+        font-size: 1.2rem;
+    }
+    
+    .txt4 {
+        font-size: 2rem;
+    }
+    
+    .txt5, .txt7 {
+        font-size: 1.8rem;
+    }
+    
+    .txt6 {
+        font-size: 1rem;
+    }
+}
+
+

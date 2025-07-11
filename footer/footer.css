@@ -1,0 +1,33 @@
+.footer{
+    width: 2000px;
+    height: 150px;
+    background-color: #f7efac;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book{
+    margin-left: 5rem;
+    width: 120px;
+    height: 100px;
+    margin: 3rem;
+}
+
+.copy{
+    font-size: 30px;
+    margin-right: 5rem;
+    margin: 3rem;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        padding: 1.5rem !important;
+    }
+
+    .book {
+        margin-bottom: 1rem;
+        width: 40px;
+    }
+}

@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="header/header.css">
     <link rel="stylesheet" href="paneles/panel1.css">
     <link rel="stylesheet" href="paneles/panel2.css">
+    <link rel="stylesheet" href="footer/footer.css">
 </head>
 <body>
 
     <div class="header1">
         <div class="txt1">PORTAFOLIO</div>
         <div class="txt2">
-            <span>Home</span>
-        <span>About</span>
-            <span>Work</span>
+            <a href="#header"><span>Home</span></a>
+        <a href="#panel1"><span>About</span></a>
+        <a href="#panel2"><span>Work</span></a>
         </div>
     </div>
 
@@ -35,7 +36,7 @@
     </div>
 
     <!--panel 1-->
-    <div class="panel1">
+    <div class="panel1" id="panel1">
         <div class="txt5">about.</div>
         <div class="txt6">👩‍🎓 Me llamo Camila y soy estudiante de computacion. ¡Bienvenido a mi portafolio de proyectos de computación! Aquí encontrarás una recopilación de trabajos realizados. Te invito a explorar este portafolio para conocer más sobre mi experiencia, habilidades y estilo de trabajo en el campo de la computación.</div>
     
@@ -45,6 +46,10 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>JAVA</li>
+            <li>SQL</li>
+            <li>MySQL</li>
+            <li>Linux</li>
+            <li>Bash</li>
         </ul>
     </div>
 
@@ -58,41 +63,53 @@
     </div>
 
     <!--panel 2-->
-    <div class="panel2">
+    <div class="panel2" id="panel2">
         <div class="txt7">Work.</div>
 
         <div class="cuadros">
             <div class="cuadro1" >
-                <a href="https://github.com/Camila145ux/Hospital-2025">
                 <img src="./assets/hospital.png" alt="">
-            </a>
+                <h3>Proyecto Hospital</h3>
+                <p>Estamos desarrollando una aplicación pensada especialmente para apoyar al personal hospitalario en sus actividades cotidianas. Aunque aún se encuentra en fase de desarrollo, ya incorpora elementos clave como botones interactivos. Nuestro enfoque principal ha sido diseñar una interfaz intuitiva y accesible, priorizando la comodidad y eficiencia de los profesionales de la salud.</p>
+                <a href="https://github.com/Camila145ux/Hospital-2025"> <p>Github </p> </a>
+        
             </div>
                   
 
             <div class="cuadro2">
-                <a href="https://github.com/Camila145ux/Labprueba1">
-                <img src="./assets/img1.png" alt="">
-                </a>
+                <img src="./assets/img2.png" alt="">
+                <h3>Responsive designe</h3>
+                <p>Creamos un sitio en el cual aplicamos responsive design técnica que  se adapte de forma automática al tamaño de la pantalla del dispositivo desde el cual se visualiza, ya sea desde un teléfono móvil, una tableta, una computadora portátil o una pantalla de escritorio. </p>
+                <a href="https://github.com/Camila145ux/responsive-designe"><p>Github</p></a>
             </div>
 
             <div class="cuadro3">
-                <a href="https://github.com/Camila145ux/responsive-designe">
-                <img src="./assets/img2.png" alt="">
-                </a>
+                <img src="./assets/img1.png" alt="">
+                <h3>Trabajo con versiones</h3>
+                <p>Creamos una plataforma de comercio electrónico que reúne una amplia variedad de productos, desde alimentos frescos como frutas y verduras, hasta muebles para el hogar y dispositivos tecnológicos. Además, implementamos un sistema de control de versiones que facilitó el seguimiento y la gestión del progreso del proyecto.</p>
+                <a href="https://github.com/Camila145ux/Labprueba1"><p>Github</p></a>
             </div>
 
             <div class="cuadro4">
-                <a href="https://github.com/Camila145ux/calculadora-2025">
                 <img src="./assets/img3.png" alt="">
-                </a>
+                <h3>Calculadora</h3>
+                <p>Este proyecto nos permitió diseñar una interfaz de calculadora moderna, con un estilo limpio y accesible. Aunque por el momento se trata solo de un prototipo visual, cuidamos que cada botón, color y detalle transmitiera claridad y una experiencia de uso sencilla.</p>
+                <a href="https://github.com/Camila145ux/calculadora-2025"><p>Github</p></a>
             </div>
 
             <div class="cuadro5">
-                <a href="https://github.com/Camila145ux/Labprueba2">
                 <img src="./assets/img4.png" alt="">
-                </a>
+                <h3>Menu deliver to</h3>
+                <p>El proyecto se dedica al diseño de una aplicación para pedir comida de forma ágil y sencilla. Nos enfocamos en desarrollar una interfaz atractiva y práctica, buscando que el usuario pueda elegir sus platos favoritos y finalizar su pedido con total comodidad y sin complicaciones.</p>
+                <a href="https://github.com/Camila145ux/Labprueba2"><p>Github</p></a>
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        <img class="book" src="assets/book.png" alt="">
+        <p class="copy">© Copyright</p>
+    </footer>
+
 </body>
 </html>
